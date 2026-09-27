@@ -1,0 +1,27 @@
+{
+  "package": "ICEMAN_ANNOUNCEMENT",
+  "version": "10MB",
+  "project": "BIGGEST EMPIRE / ICEMAN AI",
+  "announcement_system": {
+    "purpose": "publish persistent text, pictures, videos and project updates",
+    "admin_control": true,
+    "persistent_posts": true,
+    "delete_posts": true,
+    "whatsapp_group_link_support": true,
+    "wallpaper_support": true,
+    "media_library": true
+  },
+  "announcement_template": {
+    "title": "BIGGEST EMPIRE — ICEMAN AI UPDATE",
+    "body": "Welcome to BIGGEST EMPIRE. This announcement system is used for official project updates, feature releases, community information, media announcements and important notices.",
+    "owner": "Iceman",
+    "owner_contact": "+233545274761"
+  },
+  "content_rules": [
+    "Keep official announcements clear and factual.",
+    "Support persistent announcements and media.",
+    "Allow authorized administrators to publish and remove posts.",
+    "Do not store or transmit sensitive passwords or verification codes."
+  ],
+  "notes": "This package contains the announcement data/template; padding is included only to meet the requested upload size."
+}

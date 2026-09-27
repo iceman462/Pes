@@ -1,0 +1,57 @@
+{
+  "package": "ICEMAN_AI_MEMORY",
+  "version": "10MB",
+  "owner": {
+    "display_name": "Iceman",
+    "whatsapp": "+233545274761"
+  },
+  "project_rules": {
+    "whatsapp_pairing": "phone-number/pairing-code only; no QR pairing",
+    "ai_providers": "No Gemini; no OpenAI API dependency",
+    "prefix": ".",
+    "help": "available to everyone",
+    "menu": "owner-only"
+  },
+  "features": [
+    "owner-only bot controls and update workflow",
+    "AI on/off persistent setting",
+    "automatic AI mode and owner inactivity mode",
+    "new-member/group interaction",
+    "welcome/rules/group-information messages",
+    "anti-link warnings with persistent settings",
+    "warning persistence and group settings storage",
+    "admin/group commands",
+    "sticker and download features",
+    "automatic status download",
+    "profile-picture download by WhatsApp number",
+    "funny/eFootball entertainment",
+    "new-DM contact/save-number instruction",
+    "reconnection and persistent session data",
+    "WhatsApp-account safety-oriented behavior"
+  ],
+  "command_style": {
+    "prefix": ".",
+    "examples": [
+      ".help",
+      ".menu",
+      ".ai",
+      ".admin",
+      ".warn",
+      ".antilink",
+      ".welcome",
+      ".tagall",
+      ".sticker",
+      ".download",
+      ".funny"
+    ]
+  },
+  "storage": {
+    "persistent": true,
+    "typical_files": [
+      "data/warnings.json",
+      "data/settings.json"
+    ],
+    "session_folder": "session"
+  },
+  "notes": "This is a structured memory/knowledge package for the project; padding is included only to meet the requested upload size."
+}
